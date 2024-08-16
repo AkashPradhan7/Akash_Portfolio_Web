@@ -48,7 +48,7 @@ body{
 
 }
 .navbar a:hover{
-    color: aqua;
+    color: rgb(9, 255, 18);
     /* text-shadow: 1px 1px 3px red; */
     
 }
@@ -78,8 +78,8 @@ body{
 }
 .image1 img:hover{
 
-    
-    transform: translateY(2.5%);
+  
+    transform: translateY(1.5%);
     
     
 
@@ -106,7 +106,7 @@ body{
     font-size: 40px;
 }
 .home-content h1 span {
-    color: #ff004f;
+    color: #29d8b3c5;
     
 
 }
@@ -131,13 +131,13 @@ body{
 
 }
 .home-sci a:hover{
-    box-shadow: 1px 1px 10px red;
+    box-shadow: 1px 1px 10px rgb(255, 251, 0);
 }
 .buttonbox{
     display: inline-block;
     /* margin: 20px; */
     padding: 12px 20px;
-    background-color: aqua;
+    background-color: rgb(255, 211, 116);
     font-size: 15px;
     color: black;
     letter-spacing: 1px;
@@ -147,8 +147,8 @@ body{
 }
 .buttonbox:hover{
     box-shadow: 1px 1px 20px red;
-    background-color: blue;
-    color: white;
+    background-color: rgb(255, 213, 0);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -191,7 +191,9 @@ body{
     font-weight: 600;
     color: white;
 }
-
+.about-col-2 p{
+  font-size: 20px;
+}
 
 /* -------------------Skills------------------------ */
 
@@ -199,7 +201,7 @@ body{
 #skills{
     padding: 80px 0;
     
-    background-color: rgb(0, 132, 132);
+    background-color: rgba(0, 121, 121, 0.71);
 }
 .skills{
     display: flex;
@@ -208,7 +210,7 @@ body{
     
 }
 .container2{
-    height: 300px;
+    height: 500px;
 }
 .skills-col-1{
     flex-basis: 35%;
@@ -256,7 +258,7 @@ body{
 #project{
     padding: 80px 0;
     
-    background-color: rgb(43, 28, 137);
+    background-color: rgba(13, 0, 98, 0.724);
 }
 .project{
     display: flex;
@@ -265,7 +267,7 @@ body{
     
 }
 .container3{
-    height: 300px;
+    height: 500px;
 }
 .project-col-1{
     flex-basis: 35%;
@@ -282,7 +284,7 @@ body{
     
 }
 .project-col-1 img:hover{
-    box-shadow: 1px 1px 30px red;
+    box-shadow: 1px 1px 30px rgb(243, 105, 105);
 }
 .project-col-2{
     flex-basis: 60%;
@@ -291,7 +293,7 @@ body{
     
 }
 .sub-tittle2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
 }
@@ -299,6 +301,7 @@ body{
 #unordered{
     color: rgb(255, 255, 255);
     list-style:square;
+    font-size: 20px;
 
     
 }
